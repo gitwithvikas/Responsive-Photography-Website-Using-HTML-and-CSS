@@ -1,0 +1,359 @@
+/* navigation section */
+
+#navbar{
+    flex-direction: column;
+    margin-top: 6px;
+
+}
+
+
+
+
+#navbar ul li a{
+    padding: 2px 7px;
+    font-size: .8rem;
+}
+
+
+.homecontent{
+    margin: 0px 40px;
+}
+
+#home h1{
+    font-size: 1.5rem;
+}
+
+#home p{
+    font-size: .9rem;
+}
+
+
+/* blog section 1 */
+#blog1 {
+    height: 748px;
+}
+
+.blogcontent {
+    top: 38pc;
+    text-align: center;
+    margin: 0px 35px;
+}
+
+
+/* blog section 2 */
+#blog2 {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.blogcontent2 {
+    text-align: center;
+    margin: 263px 0px 0px 0px;
+    width: 80%;
+    background-color: white;
+    position: relative;
+}
+
+
+
+.blogimg2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.blogimg2 img{
+    width: 90%;
+    height: 330px;
+}
+
+/* blog section 3 */
+.blog3 {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+.blog_box .box img {
+    height: 217px;
+    width: 75vw;
+    margin: 5px 0px;
+    margin: 17px 0px;
+}
+
+.box3content {
+    margin-top: 181px;
+    padding: 13px 0px;
+    width: 65%;
+}
+
+.blog_box {
+    flex-direction: column;
+}
+
+
+/* blog section 4 */
+#blog4 {
+    height: 907px;
+}
+
+
+.blog4content {
+    width: 60%;
+}
+
+/* blog section 5 */
+
+#blog5 {
+    height: 1626px;
+    display: block;
+}
+
+.side_container1 {
+    width: 100%;
+}
+
+
+
+.side1blog5 {
+    height: 485px;
+}
+
+.side2blog5 {
+    margin-top: 30px;
+}
+
+.sideimg1 img {
+    width: 75vw;
+    height: 380px;
+}
+
+.blogcontent5 {
+    margin: 590px 0px;
+    text-align: center;
+    width: 100%;
+    left: unset;
+}
+
+
+
+.side_container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+
+.sidecontent1 {
+    display: flex;
+    flex-direction: column;
+    margin-right:0;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+
+
+.sideimg2 img {
+    width: 39vw;
+    position: relative;
+}
+
+.sidecontent2 {
+    width: 60vw;
+    text-align: center;
+}
+
+
+
+
+
+/* blog section 6 */
+#blog6 {
+    height: 472px;
+    display: block;
+}
+
+.blogcontent6 {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+
+
+
+/* blog section 7 */
+.blog7{
+    display: none;
+}
+
+
+.Blog7_responsive{
+    display: block;
+}
+
+
+
+
+
+/* blog section 7 responsive */
+.Blog7_responsive{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.Blog_box_responsive .box img {
+    height: 22vh;
+    width: 42vw;
+}
+
+.Blogtag_responsive{
+    display: flex;
+    justify-content: center;
+    position: absolute;  
+}
+.Blogtag_responsive p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    font-weight: bold;
+  
+} 
+
+.Blog_box_responsive{
+    display: flex;
+    margin: 15px 0px;
+}
+
+.Blog_box_responsive .container1{
+    display: flex;
+    flex-direction: column;
+}
+
+.Blog_box_responsive .container2{
+    display: flex;
+    flex-direction: column;
+} 
+
+
+/* contact page */
+.questiontag h1 {
+    font-size: 1rem;
+    margin-top: 12px;
+}
+
+.inputtag input {
+    padding: 3px 4px;
+    width: 36vw;
+    font-size: 0.5rem;
+}
+
+.inputtag button {
+    padding: 3px 4px;
+    width: 16vw;
+    font-size: 0.5rem;
+}
+
+/* footer section */
+footer {
+    grid-template-columns: 1.5fr 1fr 1fr;
+    margin: 5px 0px;
+}
+.footercenter img {
+    padding: 0px 10px;
+}
+
+.footerright img {
+    width: 8%;
+}
+
+.footerleft {
+    justify-content: normal;
+    padding: 0px 8px;
+    font-size: 0.4rem;
+}
+
+
+
+
+
+
+@media(max-width:700px){
+
+    /* services page */
+    .service-con{
+        display: block;
+    }
+    
+    
+    .wed-s{
+        display: block;
+    }
+
+
+   
+    
+
+    /* about page */
+      
+    .about-us{
+        display: block;
+    }
+
+    
+
+    
+
+    /* contact page */
+   .contact{
+        display: block;
+        text-align: center;
+    }
+
+    .left-add img {
+        padding: 0;
+        margin:0;
+        float: unset;
+    }
+
+    
+   .right-add button {
+       display: block;
+       width: 80%;
+       margin: auto;
+    }
+
+    .right-add {
+        margin-top: 80px;
+    }
+
+
+
+
+    /* footer page */
+    
+    .fo-list ul li {
+        padding: 0 8px;
+    }
+    
+    .fo-list ul li a {
+        font-size: 12px;
+    }
+    
+    .fo-text {
+        font-size: 11px;
+    }
+    
+    .fo-logo img {
+        height: 15px;
+        width: 15px;
+    }
+
+
+}
